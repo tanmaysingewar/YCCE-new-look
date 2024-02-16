@@ -20,12 +20,12 @@ export function MeteorsDemo() {
           <p className='text-white font-normal text-[14px]'>by NIRF, MHRD, Govt. of India</p>
           </div>
           <div className='p-8'>
-          <h1 className=' font-bold text-white text-[28px]'>Grade 'A'</h1>
+          <h1 className=' font-bold text-white text-[28px]'>Grade A</h1>
           <p className='font-medium text-[16px] text-[#3092DD]'>Awarded</p>
           <p className='text-white font-normal text-[14px]'>by Govt. of Maharashtra</p>
           </div>
           <div className='p-8'>
-          <h1 className='text-white font-bold text-[28px]'>NAAC 'A++'</h1>
+          <h1 className='text-white font-bold text-[28px]'>NAAC A++</h1>
           <p className='font-medium text-[16px] text-[#3092DD]'>Graded  </p>
           <p className='text-white font-normal text-[14px]'>by NAAC, Bangalore</p>
           </div>
