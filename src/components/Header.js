@@ -59,7 +59,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div name="logo" className="cursor-pointer lg:hidden">
+      <div name="logo" className="cursor-pointer lg:hidden p-1">
         <div className="flex flex-row">
           <Image src={logo} alt="YCCE logo" width={40} height={40} />
           <p className="text-5xl text-white font-semibold font-serif mx-3">

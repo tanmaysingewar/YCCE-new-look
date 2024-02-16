@@ -13,21 +13,23 @@ export default function Home() {
       <div className="h-screen w-full mb-2 background-gradient-main">
         {/* <BackgroundBeams /> */}
         <Header />
-        <div className="marquee mx-4 mt-2">
-          <p>
-            <span className="text-[#F6A602] font-semibold">Notice :</span> Join us at the
-            forefront of the digital revolution as we delve into the intricate
-            world of computer technology, igniting curiosity, fostering
-            collaboration, and paving the way for endless .
+        <div></div>
+        <div className="marquee mx-4 mt-2 ">
+          <p className="text-xs">
+            <span className="text-[#F6A602] font-semibold ">Notice :</span> Join
+            us at the forefront of the digital revolution as we delve into the
+            intricate world of computer technology, igniting curiosity,
+            fostering collaboration, and paving the way for endless .
           </p>
         </div>
+        
         <LandingPage />
+        
       </div>
       <MeteorsDemo />
       <LayoutGridDemo />
       <Testimonials />
       <ThreeDCardDemo />
-
       Test
     </>
   );
