@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="h-screen w-full mb-2 background-gradient-main">
+      <div className=" h-svh w-full mb-2 background-gradient-main">
         {/* <BackgroundBeams /> */}
         <Header />
         <div></div>

@@ -10,8 +10,8 @@ import logG from '@/../public/log-group.svg'
 
 function LandingPage() {
   return (
-    <div style={{backgroundImage : `linear-gradient(to right bottom, #000000, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)), url('https://images.shiksha.com/mediadata/images/1552039026php8wnYCG.png')`}} className="flex flex-row lg:h-5/6 justify-between mx-4 mt-2 rounded-lg bg-no-repeat bg-cover bg-bottom ">
-      <div className="p-5 flex flex-col lg:justify-around  md:ml-[50px] mt-10 md:mt-0">
+    <div style={{backgroundImage : `linear-gradient(to right bottom, #000000, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)), url('https://images.shiksha.com/mediadata/images/1552039026php8wnYCG.png')`,height : '83%'}} className="flex flex-row resize-none justify-between mx-4 mt-2 rounded-lg bg-no-repeat bg-cover bg-bottom">
+      <div className="p-5 flex flex-col lg:justify-around  md:ml-[50px] mt-1 md:mt-0">
         <div className="">
           <p className=" text-xl lg:text-3xl font-semibold text-[#F6A602] mb-2">Welcome to</p>
           <p className="font-bold text-3xl  text-white  lg:text-5xl">
@@ -32,7 +32,7 @@ function LandingPage() {
             /> */}
           </div>
         </div>
-        <div className="bg-[#242e3b9e] lg:hidden max-w-[500px] mt-2 p-2 h-36 overflow-scroll overflow-x-hidden rounded-lg scroll-m-1">
+        <div className="bg-[#242e3b9e] lg:hidden  mt-2 p-2 h-36 overflow-scroll overflow-x-hidden rounded-lg scroll-m-1 px-3">
           <div className="flex justify-between">
             <p className="text-white font-bold mb-1">Notice</p>
             {/* <p className='text-white font-medium mb-1 text-sm'>Date: {new Date().toLocaleDateString()}</p> */}
