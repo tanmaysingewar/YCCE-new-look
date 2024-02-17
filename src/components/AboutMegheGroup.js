@@ -1,5 +1,6 @@
 import React from "react";
 import { Meteors } from "@/components/ui/meteors";
+import { SparklesCore } from "./ui/sparkles";
 
 export function MeteorsDemo() {
   return (
@@ -12,27 +13,26 @@ export function MeteorsDemo() {
           <p className='text-center text-white mt-5'>Annual research budget of Rs 15 Crores, 60+ Research Centres, 20+ Centres <br/> of Excellence to inspire innovation & nurture inquisitive minds.</p>
           
           </div>
-          <div className='grid md:grid-cols-4 sm:grid-cols-2 mt-5 m-auto'>
-
-          <div className='p-8'>
-          <h1 className='text-white font-bold text-[28px]'>139th</h1>
-          <p className='font-medium text-[16px] text-[#3092DD]'>All India Ranked</p>
-          <p className='text-white font-normal text-[14px]'>by NIRF, MHRD, Govt. of India</p>
+          <div className='grid text-center lg:grid-cols-4 md:grid-cols-2 mt-5 m-auto space-y-4 md:text-left'>
+          <div className='md:p-8 '>
+          <h1 className='text-white font-bold text-[22px] md:text-[28px]'>139th</h1>
+          <p className='font-medium text-[12px] md:text-[16px] text-[#3092DD]'>All India Ranked</p>
+          <p className='text-white font-normal  text-[10px] md:text-[14px]'>by NIRF, MHRD, Govt. of India</p>
           </div>
-          <div className='p-8'>
-          <h1 className=' font-bold text-white text-[28px]'>Grade A</h1>
-          <p className='font-medium text-[16px] text-[#3092DD]'>Awarded</p>
-          <p className='text-white font-normal text-[14px]'>by Govt. of Maharashtra</p>
+          <div className=' md:p-8'>
+          <h1 className='text-white font-bold text-[22px] md:text-[28px]'>Grade A</h1>
+          <p className='font-medium text-[12px] md:text-[16px] text-[#3092DD]'>Awarded</p>
+          <p className='text-white font-normal  text-[10px] md:text-[14px]'>by Govt. of Maharashtra</p>
           </div>
-          <div className='p-8'>
-          <h1 className='text-white font-bold text-[28px]'>NAAC A++</h1>
-          <p className='font-medium text-[16px] text-[#3092DD]'>Graded  </p>
-          <p className='text-white font-normal text-[14px]'>by NAAC, Bangalore</p>
+          <div className='md:p-8'>
+          <h1 className='text-white font-bold text-[22px] md:text-[28px]'>NAAC A++</h1>
+          <p className='font-medium text-[12px] md:text-[16px] text-[#3092DD]'>Graded  </p>
+          <p className='text-white font-normal  text-[10px] md:text-[14px]'>by NAAC, Bangalore</p>
           </div>
-          <div className='p-8'>
-          <h1 className='text-white font-bold text-[28px]'>38 years</h1>
-          <p className='font-medium text-[16px] text-[#3092DD]'>of Establishment</p>
-          <p className='text-white font-normal text-[14px]'>since 1984</p>
+          <div className='md:p-8'>
+          <h1 className='text-white font-bold text-[22px] md:text-[28px]'>38 years</h1>
+          <p className='font-medium text-[12px] md:text-[16px] text-[#3092DD]'>of Establishment</p>
+          <p className='text-white font-normal  text-[10px] md:text-[14px]'>since 1984</p>
           </div>
         </div>
         <Meteors number={25} />

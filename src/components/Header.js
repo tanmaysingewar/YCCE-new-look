@@ -7,7 +7,7 @@ const logo = require("@/../public/ycce_logo.png");
 
 function Header() {
   return (
-    <main className="bg-[#242E3B]  p-2 mx-4 mt-4 rounded-lg">
+    <main className="bg-gray-900  p-2 mx-2 mt-2 rounded-lg">
       <div className="hidden lg:block">
         <div className="flex flex-row justify-between invisible lg:visible">
           <div>
@@ -44,7 +44,7 @@ function Header() {
                 YCCE
               </p>
             </div>
-            <p className=" text-white text-[9px] my-[-10px] mb-1 absolute">
+            <p className=" text-white text-[9px] my-[-10px] absolute mt-0">
               Yeshwantrao Chavan College of Engineering
             </p>
           </div>

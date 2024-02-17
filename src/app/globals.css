@@ -86,14 +86,15 @@
 .marquee p {
   display: inline-block;
   animation: marquee 25s linear infinite;
+  
 }
 @keyframes marquee {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(-100%, 0);
-  }
+  0% { 
+    transform: translateX(100%); 
+  } 
+  100% { 
+    transform: translateX(-100%); 
+  } 
 }
 
 /* This will affect the scrollbar globally */

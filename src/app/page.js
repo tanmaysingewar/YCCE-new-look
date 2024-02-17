@@ -3,8 +3,10 @@ import { MeteorsDemo } from "@/components/AboutMegheGroup";
 import { LayoutGridDemo } from "@/components/Gallery";
 import Header from "@/components/Header";
 import LandingPage from "@/components/LandingPage";
+import { SparklesPreview } from "@/components/Spark";
 import { Testimonials } from "@/components/Testimonials";
 import { BackgroundBeams } from "@/components/backgroun";
+import WhatMakesUsUnique from "@/components/whatmakeusnique";
 import Image from "next/image";
 
 export default function Home() {
@@ -14,7 +16,7 @@ export default function Home() {
         {/* <BackgroundBeams /> */}
         <Header />
         <div></div>
-        <div className="marquee mx-4 mt-2 ">
+        <div className="marquee mx-2 mt-2 ">
           <p className="text-xs">
             <span className="text-[#F6A602] font-semibold ">Notice :</span> Join
             us at the forefront of the digital revolution as we delve into the
@@ -22,15 +24,11 @@ export default function Home() {
             fostering collaboration, and paving the way for endless .
           </p>
         </div>
-        
         <LandingPage />
-        
       </div>
       <MeteorsDemo />
-      <LayoutGridDemo />
-      <Testimonials />
-      <ThreeDCardDemo />
-      Test
+      <WhatMakesUsUnique />
+      <SparklesPreview />
     </>
   );
 }

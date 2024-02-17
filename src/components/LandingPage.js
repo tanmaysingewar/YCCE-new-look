@@ -10,7 +10,7 @@ import logG from '@/../public/log-group.svg'
 
 function LandingPage() {
   return (
-    <div style={{backgroundImage : `linear-gradient(to right bottom, #000000, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)), url('https://images.shiksha.com/mediadata/images/1552039026php8wnYCG.png')`,height : '83%'}} className="flex flex-row resize-none justify-between mx-4 mt-2 rounded-lg bg-no-repeat bg-cover bg-bottom">
+    <div style={{backgroundImage : `linear-gradient(to right bottom, #000000, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)), url('https://images.shiksha.com/mediadata/images/1552039026php8wnYCG.png')`,height : '83%'}} className="flex flex-row resize-none justify-between mx-2 mt-2 rounded-lg bg-no-repeat bg-cover bg-bottom">
       <div className="p-5 flex flex-col lg:justify-around  md:ml-[50px] mt-1 md:mt-0">
         <div className="">
           <p className=" text-xl lg:text-3xl font-semibold text-[#F6A602] mb-2">Welcome to</p>
